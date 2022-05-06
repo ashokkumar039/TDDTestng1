@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginPage test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Parallel(failed)">
+    <classes>
+      <class name="dataprovider.Dataprovider">
+        <methods>
+          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="exit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- dataprovider.Dataprovider -->
+    </classes>
+  </test> <!-- Parallel(failed) -->
+</suite> <!-- Failed suite [LoginPage test] -->

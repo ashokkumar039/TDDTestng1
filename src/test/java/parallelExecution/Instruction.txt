@@ -1,0 +1,3 @@
+Before Executing Parallel must follow this :-
+
+	Set Selenium-Java version of your maven (pom.xml) to 3.8.0

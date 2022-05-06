@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginPage test">
+  <test name="Parallel">
+  <!--
+    <parameter name="newurl1" value="https://www.snapdeal.com"/>
+  	<parameter name="newurl2" value="https://www.flipkart.com"/>
+  -->  
+    <classes>
+      <!-- 
+      <class name="Loginpage.LoginTest"/>
+      -->
+      <!-- 
+      <parameter name="url1" value="https://www.snapdeal.com"/>
+      <class name="parameter1.Parameterised"/>
+      -->
+      <!--
+      <suite name="LoginPage test" parallel="methods" thread-count="2" >
+      <class name="parallelExecution.Parallel"/>
+      -->
+      <!--
+      <test name="Parallel" parallel="classes" thread-count="2" >
+      <class name = "parallelExecution2.FirefoxExecution"/>
+      <class name = "parallelExecution2.ChromeExecution"/>
+      --> 
+      
+      <class name="dataprovider.Dataprovider"/>
+      
+    </classes>
+  </test>
+</suite>
